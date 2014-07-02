@@ -1,0 +1,31 @@
+en:
+  date:
+    formats:
+      default: "%a %d %b %Y"
+  time:
+    formats:
+      default: "%H:%M %a %d %b %Y"
+      short: "%H:%M"
+    range: "%{begin_at} - %{end_at}"
+    ago: ' ago'
+  site_info:
+    title: 'Genuineblue'
+    description: 'Genuineblue'
+  nav:
+    devise:
+      confirmations:
+        new: "Didn't receive confirmation instructions?"
+      passwords:
+        new: 'Forgot your password?'
+      registrations:
+        new: 'Sign up'
+      sessions:
+        new: 'Sign in'
+        destroy: 'Sign out'
+      unlocks:
+        new: "Didn't receive unlock instructions?"
+      omniauth_authorize: 'Sign in with %{provider}'
+  i18n:
+    title: 'Language'
+    ja: 'Japanese'
+    en: 'English'

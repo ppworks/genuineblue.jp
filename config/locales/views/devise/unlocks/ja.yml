@@ -1,0 +1,5 @@
+ja:
+  devise:
+    unlocks:
+      title: 'ロックの解除メールを送る'
+      submit: '送信'

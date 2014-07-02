@@ -1,0 +1,27 @@
+!!!
+%html
+  %head
+    %meta{content: "width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no", name: "viewport"}
+    %title
+      genuine blue inc.
+    %meta{content: 'genuine,blue,ppworks,naoto,koshikawa,越川,直人', name: "description"}
+    %meta{content: "telephone=no", name: "format-detection"}
+    :javascript
+      var rails_env = "#{Rails.env}"
+    <script type="text/javascript" src="//use.typekit.net/eeo3lmj.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    = stylesheet_link_tag "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+    = yield(:head)
+    = render('ga')
+    = favicon_link_tag 'apple-touch-icon.png', rel: 'apple-touch-icon', type: 'image/png'
+    = favicon_link_tag 'favicon.png'
+  %body{class: "#{I18n.locale} #{yield(:body_class)}"}
+    - if content_for?(:page_header)
+      .page-header
+        = yield(:page_header)
+    .main-content
+      = render 'messages'
+      = yield
+    = render 'footer'

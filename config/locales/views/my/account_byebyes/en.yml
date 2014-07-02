@@ -1,0 +1,9 @@
+en:
+  my:
+    account_byebyes:
+      show:
+        title: 'Withdraw'
+        byebye-heading: 'Your all data will delete'
+        byebye-body: "You're ready to withdraw, click 'Withdraw' button."
+        withdraw: 'Withdraw'
+        withdraw_confirm: 'Are you sure?'

@@ -1,0 +1,33 @@
+ja:
+  date:
+    formats:
+      default: "%Y年%m月%d日(%a)"
+  time:
+    formats:
+      default: "%Y年%m月%d日(%a) %H:%M"
+      short: "%H:%M"
+    range: "%{begin_at} 〜 %{end_at}"
+    ago: '前'
+  site_info:
+    title: 'Genuineblue'
+    description: 'Genuineblue'
+  nav:
+    devise:
+      confirmations:
+        new: "確認メールの再送"
+      passwords:
+        new: 'パスワードを忘れた場合'
+      registrations:
+        new: '新規登録'
+      sessions:
+        new: 'ログイン'
+        destroy: 'ログアウト'
+      unlocks:
+        new: "ロック解除メールの再送"
+      omniauth_authorize: '%{provider}アカウントでログイン'
+    user:
+      edit: 'アカウント情報変更'
+  i18n:
+    title: '言語'
+    ja: '日本語'
+    en: '英語'

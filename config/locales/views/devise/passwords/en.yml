@@ -1,0 +1,11 @@
+en:
+  devise:
+    passwords:
+      edit:
+        title: 'Change your password'
+        submit: 'Change my password'
+        password: 'New password'
+        password_confirmation: 'Confirm your new password'
+      new:
+        title: 'Forgot your password?'
+        submit: 'Send me reset password instructions'

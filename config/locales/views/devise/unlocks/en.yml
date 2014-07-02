@@ -1,0 +1,5 @@
+en:
+  devise:
+    unlocks:
+      title: 'Resend unlock instructions'
+      submit: 'Resend unlock instructions'

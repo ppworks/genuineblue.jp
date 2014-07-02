@@ -1,0 +1,7 @@
+ja:
+  my:
+    account_setups:
+      show:
+        title: 'セットアップ'
+        update: '更新'
+        register: '登録'

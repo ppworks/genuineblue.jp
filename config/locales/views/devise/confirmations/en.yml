@@ -1,0 +1,6 @@
+en:
+  devise:
+    confirmations:
+      new:
+        title: 'Resend confirmation instructions'
+        submit: 'Resend confirmation instructions'

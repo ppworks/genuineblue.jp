@@ -1,0 +1,9 @@
+ja:
+  my:
+    account_byebyes:
+      show:
+        title: '退会'
+        byebye-heading: '退会すると全てのデータは削除されます'
+        byebye-body: 'よろしい場合は、以下のボタンから退会して下さい'
+        withdraw: '退会する'
+        withdraw_confirm: 'よろしいですか？'

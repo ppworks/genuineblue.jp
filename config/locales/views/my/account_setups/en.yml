@@ -1,0 +1,7 @@
+en:
+  my:
+    account_setups:
+      show:
+        title: 'Setup'
+        update: 'Update'
+        register: 'Register'

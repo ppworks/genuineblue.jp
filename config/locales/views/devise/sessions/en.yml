@@ -1,0 +1,7 @@
+en:
+  devise:
+    sessions:
+      new:
+        title: 'Sign in'
+        submit: 'Sign in'
+        remember_me: 'Remember me'

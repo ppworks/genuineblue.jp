@@ -1,0 +1,25 @@
+HOST: 'localhost:3000'
+TWITTER_APP_ID: 'a'
+TWITTER_APP_SECRET: 'b'
+GITHUB_APP_ID: 'a'
+GITHUB_APP_SECRET: 'b'
+GITHUB_SCOPE: 'user'
+FACEBOOK_APP_ID: 'a'
+FACEBOOK_APP_SECRET: 'b'
+FACEBOOK_SCOPE: 'email'
+NEW_RELIC_APP_NAME: 'Genuineblue'
+GA: 'UA-nnnnnnnn-m'
+GOOGLE_MAP_API_KEY: 'your key'
+test:
+  TEST_ASSET_HOST: ''
+  # forman
+  #TEST_ASSET_HOST: 'http://localhost:3000'
+staging:
+  NEW_RELIC_APP_NAME: 'Genuineblue-stg'
+production:
+  BUGSNAG_API_KEY: ''
+  NEW_RELIC_APP_NAME: 'Genuineblue'
+  NEWRELIC_DISPATCHER: 'Puma'
+  SESSION_KEY: '_Genuineblue_session'
+  SECRET_TOKEN: 'Be change this to `rake secret` result'
+  HOST: 'genuineblue.herokuapp.com'

@@ -1,0 +1,9 @@
+ja:
+  devise:
+    registrations:
+      edit:
+        title: '%{resource_name}情報の編集'
+        submit: '更新'
+      new:
+        title: '新規登録'
+        submit: '新規登録する'

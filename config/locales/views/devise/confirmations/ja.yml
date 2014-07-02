@@ -1,0 +1,6 @@
+ja:
+  devise:
+    confirmations:
+      new:
+        title: '確認メールの再送'
+        submit: '確認メールを再送する'

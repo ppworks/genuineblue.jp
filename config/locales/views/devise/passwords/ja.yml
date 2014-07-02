@@ -1,0 +1,11 @@
+ja:
+  devise:
+    passwords:
+      edit:
+        title: 'パスワードの再設定'
+        submit: 'パスワードを再設定する'
+        password: '新しいパスワード'
+        password_confirmation: '(確認)'
+      new:
+        title: '忘れパスワード再設定メールを送る'
+        submit: '送信'

@@ -1,0 +1,7 @@
+ja:
+  devise:
+    sessions:
+      new:
+        title: 'ログイン'
+        submit: 'ログインする'
+        remember_me: 'ログインを記憶'

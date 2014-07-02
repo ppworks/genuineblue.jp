@@ -1,0 +1,17 @@
+en:
+  activemodel:
+    errors:
+      messages:
+        invalid_email_address: 'does not appear to be a valid E-mail address'
+  activerecord:
+    models:
+    attributes:
+      user:
+        name: 'Name'
+        email: 'E-mail'
+        password: 'Password'
+        password_confirmation: 'Confirmation'
+        current_password: 'Current'
+    errors:
+      models:
+  enumerize:

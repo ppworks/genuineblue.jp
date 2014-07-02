@@ -1,0 +1,9 @@
+%li.dropdown
+  %a.dropdown-toggle{data: {toggle: 'dropdown'}}
+    = t('i18n.title')
+    %b.caret
+  %ul.dropdown-menu
+    - I18n.available_locales.each do |locale|
+      %li{class: I18n.locale == locale ? 'active' : ''}
+        = link_to(locale: locale) do
+          = t("i18n.#{locale}")
