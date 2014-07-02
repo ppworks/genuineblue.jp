@@ -4,18 +4,22 @@ body.pages-index
     color: rgba($white, 0.8)
     font-size: 62px
     margin: $margin
+  .logo-image
+    display: none
 
   .about
     margin: $margin
-    table
-      color: rgba($white, 0.5)
-      th
-        padding:
-          bottom: $margin-quater
-          right: $margin-half
-      td
-        padding:
-          bottom: $margin-quater
+  .about-list
+    color: rgba($white, 0.5)
+    th
+      vertical-align: top
+      padding:
+        bottom: $margin-quater
+        right: $margin-half
+    td
+      vertical-align: top
+      padding:
+        bottom: $margin-quater
 
   >.footer
     color: rgba($white, 0.5)
@@ -34,3 +38,24 @@ body.pages-index
       display: block
       text-align: left
       +num-font
+
+  @media (max-width: 480px)
+    .logo
+      display: none
+    .logo-image
+      display: block
+      img
+        width: 320px
+    .about
+      margin: $margin-quater / 2
+    .about-list
+      th
+        text-align: right
+        width: 80px
+        padding-right: 20px
+    >.footer
+      margin-left: $margin-quater
+      width: 320px - $margin-quater
+      .copyright
+        text-align: center
+

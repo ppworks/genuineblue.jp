@@ -1,10 +1,12 @@
 - content_for(:body_class, 'pages-index')
 .logo
   genuine blue inc.
+.logo-image
+  = image_tag('gb.png')
 
 %section.section.about
   %h2.about-header
-  %table
+  %table.about-list
     %tr
       %th 社名
       %td
@@ -12,7 +14,9 @@
         英語表記: genuine blue Inc.
     %tr
       %th 代表
-      %td Naoto Koshikawa
+      %td
+        Naoto Koshikawa<br />
+        blog:<a href="http://ppworks.hatenablog.jp/">pblog</a>
     %tr
       %th 設立
       %td 2013-07-01
@@ -27,5 +31,16 @@
     %tr
       %th 事業内容
       %td
-        オリジナルブランドのソフトウェアの提供
-        クラウドで動くウェブアプリケーションの開発受託
+        %ul.list
+          %li スタートアップ開発支援
+          %li 短納期プロトタイプ開発
+          %li ウェブアプリケーションの受託開発・運用
+    %tr
+      %th 実績
+      %td
+        %ul.list
+          %li 不動産管理システム開発
+          %li スポットコンサルティング・サービスシステム開発
+          %li コンテンツマーケティング支援ツール開発
+          %li 特化型SNS開発
+          %li 商品カスタマイズECサイト開発
